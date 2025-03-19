@@ -14,26 +14,35 @@ builder.Services.AddSingleton<Supabase.Client>(_ =>
     return new Supabase.Client(url, key);
 });
 
-// Add JWT authentication with Supabase specifics
+var jwtSecret = builder.Configuration["Supabase:JwtSecret"];
+var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSecret));
+
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
-        options.Authority = builder.Configuration["Supabase:Url"] + "/auth/v1";
-        options.RequireHttpsMetadata = false; // For local testing with HTTP
+        options.RequireHttpsMetadata = false;
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuer = true,
             ValidIssuer = builder.Configuration["Supabase:Url"] + "/auth/v1",
             ValidateAudience = true,
-            ValidAudience = "authenticated", // Match Supabase's "aud" claim
+            ValidAudience = "authenticated",
             ValidateLifetime = true,
-            ValidateIssuerSigningKey = true
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = key,
+            NameClaimType = "sub", // Map 'sub' to the Name claim
+            RoleClaimType = "role" // Map 'role' to the Role claim
         };
         options.Events = new JwtBearerEvents
         {
             OnAuthenticationFailed = context =>
             {
                 Console.WriteLine("Authentication failed: " + context.Exception.Message);
+                return Task.CompletedTask;
+            },
+            OnTokenValidated = context =>
+            {
+                Console.WriteLine("Token validated: " + context.SecurityToken);
                 return Task.CompletedTask;
             }
         };
@@ -43,7 +52,6 @@ builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
-// app.UseHttpsRedirection(); // Commented out for HTTP testing
 app.UseAuthentication();
 app.UseAuthorization();
 

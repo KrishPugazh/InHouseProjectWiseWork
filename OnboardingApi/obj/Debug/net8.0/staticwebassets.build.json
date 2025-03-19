@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "Zy/dtN9BX+XWAVmfTbyYexJVvKNq83M7/+c4v2QsIYo=",
+  "Hash": "oSIoC/YFm3h6AwKh6utS+vJcgcyEtWNNxRkQZBqqZ/o=",
   "Source": "OnboardingApi",
   "BasePath": "_content/OnboardingApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

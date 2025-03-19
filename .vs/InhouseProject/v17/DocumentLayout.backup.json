@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dell\\source\\repos\\InhouseProject\\",
+  "WorkspaceRootPath": "C:\\Users\\Student\\source\\repos\\InHouseProjectWiseWork\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64BA587C-9260-4C04-8664-592814062228}|OnboardingApi\\OnboardingApi.csproj|c:\\users\\dell\\source\\repos\\inhouseproject\\onboardingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64BA587C-9260-4C04-8664-592814062228}|OnboardingApi\\OnboardingApi.csproj|c:\\users\\student\\source\\repos\\inhouseprojectwisework\\onboardingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64BA587C-9260-4C04-8664-592814062228}|OnboardingApi\\OnboardingApi.csproj|solutionrelative:onboardingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BA587C-9260-4C04-8664-592814062228}|OnboardingApi\\OnboardingApi.csproj|c:\\users\\dell\\source\\repos\\inhouseproject\\onboardingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{64BA587C-9260-4C04-8664-592814062228}|OnboardingApi\\OnboardingApi.csproj|solutionrelative:onboardingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{64BA587C-9260-4C04-8664-592814062228}|OnboardingApi\\OnboardingApi.csproj|c:\\users\\student\\source\\repos\\inhouseprojectwisework\\onboardingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BA587C-9260-4C04-8664-592814062228}|OnboardingApi\\OnboardingApi.csproj|solutionrelative:onboardingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BA587C-9260-4C04-8664-592814062228}|OnboardingApi\\OnboardingApi.csproj|c:\\users\\dell\\source\\repos\\inhouseproject\\onboardingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64BA587C-9260-4C04-8664-592814062228}|OnboardingApi\\OnboardingApi.csproj|solutionrelative:onboardingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64BA587C-9260-4C04-8664-592814062228}|OnboardingApi\\OnboardingApi.csproj|c:\\users\\student\\source\\repos\\inhouseprojectwisework\\onboardingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{64BA587C-9260-4C04-8664-592814062228}|OnboardingApi\\OnboardingApi.csproj|solutionrelative:onboardingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,47 +22,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 256,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\InhouseProject\\OnboardingApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "OnboardingApi\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\InhouseProject\\OnboardingApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "OnboardingApi\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAwAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T18:54:27.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\InhouseProject\\OnboardingApi\\appsettings.json",
-              "RelativeDocumentMoniker": "OnboardingApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\InhouseProject\\OnboardingApi\\appsettings.json",
-              "RelativeToolTip": "OnboardingApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-18T18:51:56.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\InhouseProject\\OnboardingApi\\Program.cs",
-              "RelativeDocumentMoniker": "OnboardingApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\InhouseProject\\OnboardingApi\\Program.cs",
-              "RelativeToolTip": "OnboardingApi\\Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAABkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T18:42:32.417Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -78,6 +39,44 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\InHouseProjectWiseWork\\OnboardingApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "OnboardingApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\InHouseProjectWiseWork\\OnboardingApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "OnboardingApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T18:54:27.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\InHouseProjectWiseWork\\OnboardingApi\\appsettings.json",
+              "RelativeDocumentMoniker": "OnboardingApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\InHouseProjectWiseWork\\OnboardingApi\\appsettings.json",
+              "RelativeToolTip": "OnboardingApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-18T18:51:56.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\InHouseProjectWiseWork\\OnboardingApi\\Program.cs",
+              "RelativeDocumentMoniker": "OnboardingApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\InHouseProjectWiseWork\\OnboardingApi\\Program.cs",
+              "RelativeToolTip": "OnboardingApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T18:42:32.417Z",
+              "EditorCaption": ""
             }
           ]
         }

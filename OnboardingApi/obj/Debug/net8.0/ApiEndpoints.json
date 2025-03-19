@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "OnboardingApi.Controllers.LoginRequest",
+        "Type": "OnboardingApi.Controllers.AuthController\u002BLoginRequest",
         "IsRequired": true
       }
     ],
@@ -25,7 +25,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "OnboardingApi.Controllers.SignupRequest",
+        "Type": "OnboardingApi.Controllers.AuthController\u002BSignupRequest",
         "IsRequired": true
       }
     ],
